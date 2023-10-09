@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Poppins&display=swap');
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    border: 2px solid black;
+    width: 280px;
+    margin: auto;
+    padding: 13px 0px;
+    border-radius: 19px;
+    background-color: #71aad9;
+}
+
+.button {
+    padding: 20px;
+    margin: 5px 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.row {
+    margin: 4px 3px;
+}
+
+.row input {
+    padding: 12px 1px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 25px;
+    width: 95%;
+    text-align: end;
+}
+
+/* utility class */
+.text-center{
+    text-align: center;
+}
+
+
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
